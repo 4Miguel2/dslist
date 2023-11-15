@@ -11,7 +11,6 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "tb_game")
-
 public class Game {
 	
 	@Id 
@@ -136,6 +135,6 @@ public class Game {
 			return false;
 		Game other = (Game) obj;
 		return Objects.equals(id, other.id);
-	}
+	} 
 
 }
